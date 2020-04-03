@@ -1,0 +1,225 @@
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  height: 65px;
+  width: 100%;
+ 
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+.container{
+   background-color: black;
+ height:65px;
+}
+.logo {
+  width: 60px;
+  margin-top: 20px;
+  height: 40px;
+  float: left;
+}
+
+ .header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding:  0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.tittle{
+  padding-top: 20px;
+  color:white;
+  height: 50px;
+  float: left;
+}
+.signup-modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+#signup-form {
+  width: 100%;
+}
+
+#signup-form h2 {
+  color: #5f5d60;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+#signup-form input {
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+}
+.inpu{
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding:12px 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+
+}
+
+#submit-btn {
+  display: inline-block;
+  padding: 14px 140px;
+  background-color: #5dca88;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://c.tadst.com/gfx/600x337/barcelona-morning-sky.jpg?1);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 600px;
+  width:100%;
+}
+.container1{
+  height: 600px;
+}
+.signup {
+  background-color: #239b76;
+}
+.quotes{
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+h2{
+  padding-top: 20px;
+  color: black;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.fologo{
+  width: 60px;
+  margin-top: 20px;
+  height: 40px;
+  float: left;
+
+}
+.content{
+  padding-top: 80px;
+  font-size: 85px;
+  padding-bottom: 40px;
+}
+h3,li{
+  color: white;
+
+}
+li{
+  float: left;
+  padding-right: 60px;
+  font-size: 35px;
+  padding-left: 5px;
+  list-style: none;
+}
+.heading{
+  padding-top: 10px;
+  font-size: 35px;
+}
+
+.middle p{
+  font-size: 20px;
+}
+.cimg{
+  padding-top: 10px;
+  height: 350px;
+  padding-left: 450px;
+  width: 50%;
+}
+
+.mess li{ 
+  float: left;
+  color:white;
+  font-size: 25px;
+  list-style: none;
+  padding-top:20px;
+
+}
+.footer{
+  height: 65px;
+  width: 100%;
+}
+.container2{
+  background-color: black;
+  height: 65px;
+}
+.list p{
+  float: right;
+  color:white;
+  line-height: 65px;
+  padding:  0 25px;
+  color: white;
+  display: block;
+  
+  transition: all 0.5s;
+}
+.list p:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
